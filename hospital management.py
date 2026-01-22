@@ -51,7 +51,7 @@ class HospitalAppointmentSystem:
             minutes=queue_length * self.CONSULTATION_MINUTES
         )
 
-    # ------------- CORE FEATURES -------------
+    # ------------- CORE FEATURES ------------
 
     def register_patient(
         self,
@@ -379,3 +379,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
